@@ -11,4 +11,4 @@ whisper to interact <i>[ w2i ]</i> im almost never not off tab, so i wont respon
 
 you can cuddle and hide with me <i>[ c*h ]</i>
 
-frequent dissociation, be ware
+frequent dissociation, be ware <i>[dpdr]</i>
