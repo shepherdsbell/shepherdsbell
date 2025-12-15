@@ -10,3 +10,5 @@ interact with caution <i>[ iwc ]</i> yet all interactions are welcome
 whisper to interact <i>[ w2i ]</i> im almost never not off tab, so i wont respond if you dont
 
 you can cuddle and hide with me <i>[ c*h ]</i>
+
+frequent dissociation, be ware
