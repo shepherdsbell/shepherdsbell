@@ -7,8 +7,8 @@
 
 interact with caution <i>[ iwc ]</i> yet all interactions are welcome
 
-whisper to interact <i>[ w2i ]</i> im almost never not off tab, so i wont respond if you dont
+whisper to interact <i>[ w2i ]</i> im almost <i>never not</i> off tab, so i wont respond if you dont
 
 you can cuddle and hide with me <i>[ c*h ]</i>
 
-frequent dissociation <i>[dpdr]</i>
+other interactables <i>[<a href="https://spacehey.com/profile?id=4011582">spacehey</a>]</i>
