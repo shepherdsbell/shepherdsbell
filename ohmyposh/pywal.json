@@ -1,0 +1,79 @@
+{
+  "$schema": "https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/main/themes/schema.json",
+  "blocks": [
+    {
+      "alignment": "left",
+      "segments": [
+        {
+          "foreground": "p-4",
+          "foreground_templates": ["{{ if .Root }}p-1{{ end }}"],
+          "style": "plain",
+          "template": "\u250c\u2500\u2500({{.UserName}}{{.HostName}})",
+          "type": "session"
+        },
+        {
+          "foreground": "p-3",
+          "style": "plain",
+          "template": "-[\ue235 {{ if .Error }}{{ .Error }}{{ else }}{{ .Full }}{{ end }}]",
+          "type": "python"
+        },
+        {
+          "foreground": "p-7",
+          "style": "plain",
+          "template": "-[{{ .Path }}]",
+          "type": "path"
+        },
+        {
+          "foreground": "p-6",
+          "style": "plain",
+          "template": "-[{{ .HEAD }}]",
+          "type": "git"
+        }
+      ],
+      "type": "prompt"
+    },
+    {
+      "alignment": "right",
+      "segments": [
+        {
+          "foreground": "p-7",
+          "style": "plain",
+          "template": " {{ .FormattedMs }} ",
+          "type": "executiontime"
+        },
+        {
+          "foreground": "p-2",
+          "foreground_templates": ["{{ if gt .Code 0 }}p-1{{ end }}"],
+          "style": "plain",
+          "template": " {{ if gt .Code 0 }}\uea76{{else}}\uf42e{{ end }} ",
+          "type": "status"
+        }
+      ],
+      "type": "prompt"
+    },
+    {
+      "alignment": "left",
+      "newline": true,
+      "segments": [
+        {
+          "foreground": "p-4",
+          "style": "plain",
+          "template": "\u2514\u2500{{ if .Root }}#{{ else }}${{ end }} ",
+          "type": "text"
+        }
+      ],
+      "type": "prompt"
+    }
+  ],
+  "palette": {
+    "p-1": "#0a0c09",
+    "p-2": "#91918f",
+    "p-3": "#474d45",
+    "p-4": "#616558",
+    "p-5": "#6d7579",
+    "p-6": "#929593",
+    "p-7": "#aaadb1",
+    "p-8": "#cecdcc"
+  },
+  "version": 4
+}
