@@ -1,14 +1,6 @@
-<img align="left" width="440" height="400" src=https://i.postimg.cc/28pGj1j3/header-20251215162013.png> ***INTRODUCTION***
-<br>
-><i>misty quigley introject with an interest in neuropsychology</i>
-<br>
-<br>
-<b>PONY TOWN</b>
+# Shepherds dotfiles
+All my configs for when i make another new arch installation :7
 
-interact with caution <i>[ iwc ]</i> yet all interactions are welcome
+<sub> (demonstration picture goes here) </sub>
 
-whisper to interact <i>[ w2i ]</i> im almost <i>never not</i> off tab, so i wont respond if you dont
-
-you can cuddle and hide with me <i>[ c*h ]</i>
-
-other interactables <i>[<a href="https://spacehey.com/profile?id=4011582">spacehey</a>]</i>
+More info here blablabla.
