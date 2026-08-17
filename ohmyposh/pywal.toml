@@ -1,0 +1,31 @@
+version = 2
+final_space = true
+
+[[blocks]]
+  type = 'prompt'
+  alignment = 'left'
+
+  [[blocks.segments]]
+    type = 'path'
+    style = 'powerline'
+    powerline_symbol = ''
+    # 'p-blue' (ANSI 4) and 'p-black' (ANSI 0) come from your pywal colors
+    background = 'p-blue'
+    foreground = 'p-black'
+    template = '  {{ .Path }} '
+
+  [[blocks.segments]]
+    type = 'git'
+    style = 'powerline'
+    powerline_symbol = ''
+    background = 'p-green'
+    foreground = 'p-black'
+    template = ' {{ .HEAD }} '
+
+[[blocks]]
+  type = 'rprompt'
+  [[blocks.segments]]
+    type = 'time'
+    style = 'plain'
+    foreground = 'p-white'
+    template = '{{ .CurrentDate | date "15:04" }}'
